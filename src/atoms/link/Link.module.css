@@ -1,6 +1,8 @@
 .button, .button-secondary {
     display: inline-block;
     
+    font-size: 1.1em;
+
     text-decoration: none;
 
     padding: 0.5rem 1rem;
