@@ -1,0 +1,37 @@
+.button, .button-secondary {
+    display: inline-block;
+    
+    text-decoration: none;
+
+    padding: 0.5rem 1rem;
+
+    border: 2px solid var(--color-primary);
+    
+    transition: 0.3s ease;
+}
+
+.button, .button-secondary:hover {
+    background-color: var(--color-primary);
+    color: var(--color-background);
+}
+
+.button:hover, .button-secondary {
+    color: var(--color-primary);
+    background-color: var(--color-background);
+}
+
+.normal, .active {
+    text-decoration: none;
+    color: var(--color-primary);
+
+    transition: 0.2s ease;
+}
+
+.normal:hover {
+    text-decoration: underline;
+}
+
+.active {
+    font-weight: bold;
+    color: var(--color-text);
+}
