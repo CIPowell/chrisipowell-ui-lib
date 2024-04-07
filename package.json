@@ -1,5 +1,5 @@
 {
-  "name": "chrisipowell-ui-lib",
+  "name": "@CIPowell/ui-lib",
   "version": "1.0.1",
   "description": "UI Components for React for ChrisIPowell.co.uk",
   "main": "index.js",

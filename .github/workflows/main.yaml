@@ -34,3 +34,7 @@ jobs:
         run: npm run chromatic
         env:
           CHROMATIC_PROJECT_TOKEN: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
+      - name: Publish package to Github Packages
+        run: npm publish
+        env:
+        NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
